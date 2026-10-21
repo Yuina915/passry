@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Passry で交換しよう！</title>
+<meta property="og:title" content="Passry で交換しよう！">
+<meta property="og:description" content="会って、ふって、渡そう。スマホでできる交換日記アプリ Passry">
+<style>
+  body { font-family: -apple-system, "Hiragino Maru Gothic ProN", sans-serif; background: #fdf0f6; color: #4a3550; margin: 0; line-height: 1.8; text-align: center; }
+  main { max-width: 480px; margin: 0 auto; padding: 56px 24px; }
+  h1 { color: #f05c9e; font-size: 1.8rem; margin: 0 0 8px; }
+  p { margin: 8px 0; }
+  .card { background: #fff; border-radius: 20px; padding: 24px 20px; margin-top: 24px; border: 2px dashed #f7a8cb; }
+  a.btn { display: block; margin: 14px auto 0; max-width: 280px; padding: 14px 20px; border-radius: 999px; font-weight: bold; text-decoration: none; }
+  a.open { background: #f05c9e; color: #fff; }
+  a.store { background: #fff; color: #f05c9e; border: 2px solid #f05c9e; }
+  small { color: #8a7790; }
+</style>
+</head>
+<body>
+<main>
+  <h1>☆Passry☆</h1>
+  <p>友達から「交換しよう！」のおさそいが届いたよ</p>
+  <div class="card">
+    <p>Passry が入っていれば、そのままひらくよ</p>
+    <a class="btn open" href="passry://exchange">Passry をひらく</a>
+    <a class="btn store" href="https://apps.apple.com/jp/app/id6821224402">App Store でダウンロード</a>
+  </div>
+  <p><small>会って、ふって、渡そう。スマホでできる交換日記アプリ</small></p>
+</main>
+<script>
+  // Passry が入っていればアプリへ。入っていなければこのページに残る
+  window.location.href = "passry://exchange";
+</script>
+</body>
+</html>
